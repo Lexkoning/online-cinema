@@ -19,7 +19,7 @@ pipeline {
         }
         stage('deploy in runtime') {
             steps {
-                sh 'mvn tomcat7:run'
+               echo 'Succesfull'
             }
         }
     }

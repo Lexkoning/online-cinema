@@ -12,6 +12,11 @@ pipeline {
                 sh 'mvn install'
             }
         }
+        stage('Test maven') {
+            steps {
+                sh 'mvn test'
+            }
+        }
         stage('deploy in runtime') {
             steps {
                 sh 'mvn tomcat7:run'

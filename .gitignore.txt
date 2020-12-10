@@ -1,2 +1,1 @@
-/home/lexkoning/online-cinema/target/
-/home/lexkoning/online-cinema/.gitignore.txt
+target/*
